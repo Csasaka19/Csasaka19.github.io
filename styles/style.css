@@ -71,6 +71,27 @@ table {
   line-height: 40px;
   padding: 40px 10px 22px 10px;
 }
+.logo a{
+    text-decoration: none;
+ }
+/*
+  ========================================
+ Navigation
+  ========================================
+*/
+nav{
+    float: right;
+}
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+    font-size: 20px;
+  }
+  nav li:last-child {
+    margin-right: 0;
+  }
+
 /*
   ========================================
   header
@@ -140,8 +161,28 @@ body {
     line-height: 28px;
     text-transform: uppercase;
   }
+ /*
+  ========================================
+  Links
+  ========================================
+*/
+a:hover {
+    color: #ff0000;
+  }
 
+  a {
+    color: #3c33b5;
+    text-decoration: underline;
+  }
 
+  a:focus {
+    outline: teal;
+  }
+
+  a:hover,
+  a:active {
+    outline: 0;
+  }
 
 /*
  ======================================== 
