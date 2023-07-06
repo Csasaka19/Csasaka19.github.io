@@ -91,9 +91,41 @@ table {
   ========================================
 */
 
-h1, h3, h4, h5, p {
+h1, h2, h3,  p {
 	margin-bottom: 22px;
   }
+
+  /*
+  ========================================
+  body styles
+  ========================================
+*/
+body {
+	background: #5279b9;
+	color: #000000;
+	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  h1, h2, h3 {
+	color: #000000;
+  }
+
+  h1 {
+	font-size: 38px;
+	line-height: 44px;
+  }
+  h2 {
+	font-size: 28px;
+	line-height: 44px;
+    text-transform: uppercase;
+  }
+  h3 {
+	font-size: 21px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+
 
 /*
  ======================================== 
@@ -129,7 +161,7 @@ h1, h3, h4, h5, p {
   }
 
 .primary-footer{
-	color: #5b5f5e;
+	color: #2eab8c;
 	font-size: 14px;
 	padding-bottom: 44px;
 	padding-top: 44px;
