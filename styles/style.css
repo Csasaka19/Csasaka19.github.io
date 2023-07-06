@@ -57,7 +57,7 @@ table {
 }
 /*
   ========================================
-  logo
+   Landing page logo
   ========================================
 */
 .logo{
@@ -121,6 +121,17 @@ nav li {
     height: auto;
     opacity: inherit;
 }
+/*
+  ========================================
+  features section images
+  ========================================
+*/
+.features{
+    background: #ffffff;
+    padding: 50px 0;
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+}
 
 /*
   ========================================
@@ -160,6 +171,11 @@ body {
 	font-size: 21px;
     line-height: 28px;
     text-transform: uppercase;
+  }
+  p {
+    font-size: 18px;
+    margin-top: auto;
+    margin-bottom: 4px;
   }
  /*
   ========================================
