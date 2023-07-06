@@ -126,6 +126,11 @@ nav li {
   features section images
   ========================================
 */
+.features img{
+    width: 100%;
+    height: auto;
+    opacity: inherit;
+}
 .features{
     background: #ffffff;
     padding: 50px 0;
@@ -167,16 +172,19 @@ body {
 	line-height: 44px;
   }
   h2 {
+    margin: 0 10px;
 	font-size: 28px;
 	line-height: 44px;
     text-transform: uppercase;
   }
   h3 {
+    margin: 0 10px;
 	font-size: 21px;
     line-height: 28px;
     text-transform: uppercase;
   }
   p {
+    margin: 0 10px;
     font-size: 18px;
     margin-top: auto;
     margin-bottom: 4px;
